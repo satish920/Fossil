@@ -1,0 +1,10 @@
+<suite name = "Fossil_AumationScript">
+	 <test name ="AutomationScript_Fossil">
+		 <classes>
+		 <class name ="Fossil.Fossil">    </class>
+		 
+	 </classes>	
+		
+			</test>
+			
+			</suite>
