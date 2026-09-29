@@ -1,0 +1,59 @@
+<suite name = "Fossil_AumationScript">
+	 
+	 <test name ="Search_Functionality_With_ValidProductname">
+		 <classes>
+		 <class name ="Fossil_Testcases.Search_Functionality_With_ValidProductname">  </class>
+		 
+	 </classes>	
+		
+			</test>
+			
+			
+			
+		 <test name ="Search_Functionality_With_InvalidProductname">
+		 <classes>
+		 <class name ="Fossil_Testcases.Search_Functionality_With_InvalidProductname">  </class>
+		 
+	 </classes>	
+		
+			</test>	
+			
+			
+				
+			
+			
+		 <test name ="Search_Functionality_Without_ProvidinAnyData">
+		 <classes>
+		 <class name ="Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData">  </class>
+		 
+	 </classes>	
+		
+			</test>		
+			
+			
+			
+			 <test name ="Search_Functionality_With_ProductnameAndPrice">
+		 <classes>
+		 <class name ="Fossil_Testcases.Search_Functionality_With_ProductnameAndPrice">  </class>
+		 
+	 </classes>	
+		
+			</test>	
+			
+			
+				 <test name ="Search_Functionality_ProductPartialName">
+		 <classes>
+		 <class name ="Fossil_Testcases.Search_Functionality_ProductPartialName">  </class>
+		 
+	 </classes>	
+		
+			</test>
+			
+			
+			
+			
+			
+			
+			
+			
+			</suite>

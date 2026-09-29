@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Fossil_AumationScript" class="navigator-link">
+              <span class="suite-name border-failed">Fossil_AumationScript</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Fossil_AumationScript" class="navigator-link ">
+                    <span>C:\Users\SATISH\OneDrive\Desktop\satish_project\Fossil\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Fossil_AumationScript" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Fossil_AumationScript" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Fossil_AumationScript" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Fossil_AumationScript" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Fossil_AumationScript" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Fossil_AumationScript" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Fossil_AumationScript" class="hide-methods failed suite-Fossil_AumationScript"> (hide)</a> <!-- hide-methods failed suite-Fossil_AumationScript -->
+                      <a href="#" panel-name="suite-Fossil_AumationScript" class="show-methods failed suite-Fossil_AumationScript"> (show)</a> <!-- show-methods failed suite-Fossil_AumationScript -->
+                    </span>
+                    <div class="method-list-content failed suite-Fossil_AumationScript">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Fossil_AumationScript" title="Fossil_Testcases.Search_Functionality_ProductPartialName" class="method navigator-link" hash-for-method="Search_Functionality_ProductPartialName">Search_Functionality_ProductPartialName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Fossil_AumationScript" title="Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData" class="method navigator-link" hash-for-method="Search_Functionality_Without_ProvidinAnyData">Search_Functionality_Without_ProvidinAnyData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Fossil_AumationScript -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Fossil_AumationScript" class="hide-methods passed suite-Fossil_AumationScript"> (hide)</a> <!-- hide-methods passed suite-Fossil_AumationScript -->
+                      <a href="#" panel-name="suite-Fossil_AumationScript" class="show-methods passed suite-Fossil_AumationScript"> (show)</a> <!-- show-methods passed suite-Fossil_AumationScript -->
+                    </span>
+                    <div class="method-list-content passed suite-Fossil_AumationScript">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Fossil_AumationScript" title="Fossil_Testcases.Search_Functionality_With_InvalidProductname" class="method navigator-link" hash-for-method="Search_Functionality_With_InvalidProductname">Search_Functionality_With_InvalidProductname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Fossil_AumationScript" title="Fossil_Testcases.Search_Functionality_With_ProductnameAndPrice" class="method navigator-link" hash-for-method="Search_Functionality_With_ProductnameAndPrice">Search_Functionality_With_ProductnameAndPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Fossil_AumationScript" title="Fossil_Testcases.Search_Functionality_With_ValidProductname" class="method navigator-link" hash-for-method="Search_Functionality_With_ValidProductname">Search_Functionality_With_ValidProductname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Fossil_AumationScript -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Fossil_AumationScript" class="panel Fossil_AumationScript">
+          <div class="suite-Fossil_AumationScript-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Fossil_Testcases.Search_Functionality_ProductPartialName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Functionality_ProductPartialName">
+                  </a> <!-- Search_Functionality_ProductPartialName -->
+                  <span class="method-name">Search_Functionality_ProductPartialName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cccc3b4af153324ecd801cabda384d5, findElement {using=xpath, value=/html/body/div[2]/div[2]/header/div[3]/nav/div/div/div/div[2]/div/ul/li[11]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\SATISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65122}, goog:processID: 14800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65122/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cccc3b4af153324ecd801cabda384d5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at Fossil_Library.Search_Functionality.Search_Functionality_ProductPartialName(Search_Functionality.java:147)
+	at Fossil_Testcases.Search_Functionality_ProductPartialName.Search_Functionality_ProductPartialName(Search_Functionality_ProductPartialName.java:14)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Fossil_AumationScript-class-failed -->
+          <div class="suite-Fossil_AumationScript-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Functionality_Without_ProvidinAnyData">
+                  </a> <!-- Search_Functionality_Without_ProvidinAnyData -->
+                  <span class="method-name">Search_Functionality_Without_ProvidinAnyData</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;tracking-consent-module__NVOBpW__affirmButton&quot; data-url=&quot;/on/demandware.store/Sites-fossil-in-Site/en_IN/ConsentTracking-SetConsent?consent=true&quot;&gt;...&lt;/button&gt; is not clickable at point (1334, 573). Other element would receive the click: &lt;div class=&quot;header-search-suggestions-grid&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=153.0.8010.53)
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [644e92297032827d19578df06e48eef0, clickElement {id=f.C109BF1E043BF980D054DCE16E90124F.d.64D362E22F62145A0974548A1545B185.e.696}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\SATISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59685}, goog:processID: 15280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59685/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (644e92297032827d19578df06e48eef0)] -&gt; xpath: //button[@class=&apos;tracking-consent-module__NVOBpW__affirmButton&apos;]]
+Session ID: 644e92297032827d19578df06e48eef0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at Fossil_Library.Search_Functionality.Search_Functionality_Without_ProvidinAnyData(Search_Functionality.java:94)
+	at Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData.Search_Functionality_Without_ProvidinAnyData(Search_Functionality_Without_ProvidinAnyData.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Fossil_AumationScript-class-failed -->
+          <div class="suite-Fossil_AumationScript-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil_Testcases.Search_Functionality_With_InvalidProductname</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Functionality_With_InvalidProductname">
+                  </a> <!-- Search_Functionality_With_InvalidProductname -->
+                  <span class="method-name">Search_Functionality_With_InvalidProductname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Fossil_AumationScript-class-passed -->
+          <div class="suite-Fossil_AumationScript-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil_Testcases.Search_Functionality_With_ValidProductname</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Functionality_With_ValidProductname">
+                  </a> <!-- Search_Functionality_With_ValidProductname -->
+                  <span class="method-name">Search_Functionality_With_ValidProductname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Fossil_AumationScript-class-passed -->
+          <div class="suite-Fossil_AumationScript-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil_Testcases.Search_Functionality_With_ProductnameAndPrice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Functionality_With_ProductnameAndPrice">
+                  </a> <!-- Search_Functionality_With_ProductnameAndPrice -->
+                  <span class="method-name">Search_Functionality_With_ProductnameAndPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Fossil_AumationScript-class-passed -->
+        </div> <!-- panel Fossil_AumationScript -->
+        <div panel-name="test-xml-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SATISH\OneDrive\Desktop\satish_project\Fossil\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Fossil_AumationScript&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search_Functionality_With_ValidProductname&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Fossil_Testcases.Search_Functionality_With_ValidProductname&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search_Functionality_With_ValidProductname --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search_Functionality_With_InvalidProductname&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Fossil_Testcases.Search_Functionality_With_InvalidProductname&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search_Functionality_With_InvalidProductname --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search_Functionality_Without_ProvidinAnyData&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search_Functionality_Without_ProvidinAnyData --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search_Functionality_With_ProductnameAndPrice&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Fossil_Testcases.Search_Functionality_With_ProductnameAndPrice&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search_Functionality_With_ProductnameAndPrice --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search_Functionality_ProductPartialName&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Fossil_Testcases.Search_Functionality_ProductPartialName&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search_Functionality_ProductPartialName --&gt;
+&lt;/suite&gt; &lt;!-- Fossil_AumationScript --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Fossil_AumationScript</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Search_Functionality_With_ValidProductname (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search_Functionality_With_InvalidProductname (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search_Functionality_Without_ProvidinAnyData (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search_Functionality_With_ProductnameAndPrice (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search_Functionality_ProductPartialName (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Fossil_AumationScript</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Fossil_AumationScript</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Fossil_AumationScript');
+function tableData_Fossil_AumationScript() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Search_Functionality_With_ProductnameAndPrice')
+data.setCell(0, 2, 'Fossil_Testcases.Search_Functionality_With_ProductnameAndPrice')
+data.setCell(0, 3, 10263);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Search_Functionality_With_ValidProductname')
+data.setCell(1, 2, 'Fossil_Testcases.Search_Functionality_With_ValidProductname')
+data.setCell(1, 3, 8366);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Search_Functionality_With_InvalidProductname')
+data.setCell(2, 2, 'Fossil_Testcases.Search_Functionality_With_InvalidProductname')
+data.setCell(2, 3, 6201);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Search_Functionality_Without_ProvidinAnyData')
+data.setCell(3, 2, 'Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData')
+data.setCell(3, 3, 3528);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Search_Functionality_ProductPartialName')
+data.setCell(4, 2, 'Fossil_Testcases.Search_Functionality_ProductPartialName')
+data.setCell(4, 3, 483);
+window.suiteTableData['Fossil_AumationScript']= { tableData: data, tableDiv: 'times-div-Fossil_AumationScript'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Fossil_AumationScript">
+              </div> <!-- times-div-Fossil_AumationScript -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Fossil_AumationScript</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Fossil_AumationScript" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil_Testcases.Search_Functionality_With_ValidProductname</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchapp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Search_Functionality_With_ValidProductname</span>
+                <span class="method-start">18635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeapp</span>
+                <span class="method-start">27033 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil_Testcases.Search_Functionality_With_InvalidProductname</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchapp</span>
+                <span class="method-start">28070 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Search_Functionality_With_InvalidProductname</span>
+                <span class="method-start">41553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeapp</span>
+                <span class="method-start">47761 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchapp</span>
+                <span class="method-start">48387 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Search_Functionality_Without_ProvidinAnyData</span>
+                <span class="method-start">64821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeapp</span>
+                <span class="method-start">68590 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil_Testcases.Search_Functionality_With_ProductnameAndPrice</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchapp</span>
+                <span class="method-start">69702 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Search_Functionality_With_ProductnameAndPrice</span>
+                <span class="method-start">98758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeapp</span>
+                <span class="method-start">109025 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil_Testcases.Search_Functionality_ProductPartialName</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Search_Functionality_ProductPartialName</span>
+                <span class="method-start">112763 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

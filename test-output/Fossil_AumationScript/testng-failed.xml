@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Fossil_AumationScript]">
+  <test thread-count="5" name="Search_Functionality_Without_ProvidinAnyData(failed)">
+    <classes>
+      <class name="Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData">
+        <methods>
+          <include name="Search_Functionality_Without_ProvidinAnyData"/>
+          <include name="launchapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Fossil_Testcases.Search_Functionality_Without_ProvidinAnyData -->
+    </classes>
+  </test> <!-- Search_Functionality_Without_ProvidinAnyData(failed) -->
+  <test thread-count="5" name="Search_Functionality_ProductPartialName(failed)">
+    <classes>
+      <class name="Fossil_Testcases.Search_Functionality_ProductPartialName">
+        <methods>
+          <include name="Search_Functionality_ProductPartialName"/>
+        </methods>
+      </class> <!-- Fossil_Testcases.Search_Functionality_ProductPartialName -->
+    </classes>
+  </test> <!-- Search_Functionality_ProductPartialName(failed) -->
+</suite> <!-- Failed suite [Fossil_AumationScript] -->
