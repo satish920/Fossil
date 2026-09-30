@@ -15,7 +15,7 @@ public void Search_Functionality_With_ValidProductname()
 	
 	Search_Functionality SF = PageFactory.initElements(driver, Search_Functionality.class);
 	      SF.Search_Functionality_With_ValidProductname();
-	boolean status   =  SF.isDisplayedValidationMessage1();
+	boolean status   =  SF.isdisplayedbothpricesame();
   Assert.assertTrue(status);
 
 

@@ -25,6 +25,7 @@ public class Apputils {
                     driver.navigate().to(url);
                    driver.manage().window().maximize();
                    driver.navigate().refresh();
+                   driver.manage().deleteAllCookies();
          }
          
     	   @AfterTest

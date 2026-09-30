@@ -24,12 +24,17 @@ public class Search_Functionality extends Apputils {
 	@FindBy (xpath = "//button[@class='tracking-consent-module__NVOBpW__affirmButton']")
 	WebElement submit2;
 	
-	@FindBy (xpath ="//span[@class='reval-results-count']")
-	WebElement displayingvalidationmessage;
+	@FindBy (xpath ="//span[@class='pro-price text-black fw-bold']")
+	WebElement isdisplayedbothpricesame;
 	
+	@FindBy (xpath = "/html/body/div[3]/div/div/div[1]/div[5]/section/div[1]/div[1]/div/div/div[2]/div[3]/div/div/span[2]")
+	WebElement price;
 	
+	@FindBy (xpath="//img[@class='ProductCard-module__zQzbga__hoverImg']")
+	WebElement productimg;
 	
-	
+	@FindBy (xpath ="//span[@class='pro-price text-black fw-bold']")
+	WebElement Mrpprice;
 	
 	
 	public void Search_Functionality_With_ValidProductname () 
@@ -39,12 +44,27 @@ public class Search_Functionality extends Apputils {
 	    sendingdata.sendKeys("Scarlette Stainless Steel Watch");
 	    submit.click();
         submit2.click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+      String pricebefore= price.getText();
+      System.out.println("Pricebefore" +pricebefore);
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+      productimg.click();
+    String priceafter =  Mrpprice.getText();
+    System.out.println("Priceafter" + priceafter);
+    System.out.println(pricebefore.equalsIgnoreCase(priceafter));
+    System.out.println("Test case is passed"); 
+
 
 }
 	  
-public boolean isDisplayedValidationMessage1() {
 
-if  (displayingvalidationmessage.isDisplayed()) 
+	
+	
+	
+	
+	public boolean isdisplayedbothpricesame() {
+
+if  (isdisplayedbothpricesame.isDisplayed()) 
 	   {
 		   
 	 return true;
@@ -123,7 +143,7 @@ public void Search_Functionality_With_ProductnameAndPrice ()
 	 driver.findElement(By.xpath("//input[@type='search']")).sendKeys("scarlette 11,995");
 	 driver.findElement(By.xpath("//button[@type='submit']")).click();
 	    driver.findElement(By.xpath("//button[@class='tracking-consent-module__NVOBpW__affirmButton']")).click();
-	     // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 }
 
